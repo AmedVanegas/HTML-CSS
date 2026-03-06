@@ -1,0 +1,26 @@
+body{
+    background-color: darkslategrey;
+}
+h1{
+    text-align: center;
+}
+
+
+
+p{
+    
+    margin: 0px 50px 20px 50px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;  /* este cambia que grosor tiene*/
+    font-family: "Pirata One";
+    font-style: italic;
+    /* text-decoration: line-through blue; */
+    text-transform: capitalize;
+    text-shadow: 0px 0px 10px aqua;
+    line-height: 40px;
+    letter-spacing: 5px;
+
+    
+}
