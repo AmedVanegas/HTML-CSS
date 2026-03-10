@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.img{
+    width: 50px;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(124, 15, 15);
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
