@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+
+}
+
+.container{
+    background-color: black;
+}
+
+.receta {
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.receta_1{
+    background-color: aquamarine;
+}
+
+.receta_2{
+    background-color: bisque;
+}
+
+.receta_3{
+    background-color: brown;
+}
+
+li{
+    list-style: none;
+}
+
+.main_list{
+    text-decoration: none;
+}
+
+.item{
+    text-decoration: none;
+}
