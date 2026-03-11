@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 40rem;
+    height: 40rem;
+    background-color: antiquewhite;
+    /* margen para centrar en toda la pagina */
+    margin: 0 auto;
+
+
+
+    /* FLEX */
+
+    /* para mover los objetos  */
+    display: flex;
+    /* centrado en el contenedor eje principal */
+    justify-content: center;
+    /* espacio entre objetos */
+    gap: 10px;
+    /* centra en el eje cruzado */
+    align-items: center;
+    /* elige el eje principal */
+    flex-direction: row;
+    /* organiza objetos hacia abajo */
+    flex-wrap: wrap;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
