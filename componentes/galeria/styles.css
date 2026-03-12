@@ -6,6 +6,8 @@
 
 body{
     background-color: rgb(29, 9, 9);
+    background-color: rgb(55, 250, 38);
+
     
 }
 
@@ -64,3 +66,49 @@ img{
 
 }
 
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+.ppp{
+    width: 50px;
+    display: none;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container2{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    background-color: rgb(7, 187, 7);
+    justify-content: start;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
