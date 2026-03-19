@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.7%;
+}
+
+
+header{
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.icon{
+    width: 3rem;
+}
+.menu_list{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+}
+
+
+.menu_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+@media (max-width: 750px){
+
+    header{
+        padding: ;
+    }
+
+    .icon{
+        width: 2.5rem;
+
+    }
+
+    .menu_link{
+        font-size: 1.6rem;
+    }
+
+
+}

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+
+    background: black;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 14%, rgba(65, 1, 4, 0.908) 98%);
+    background-attachment: fixed;
+}
+
+header{
+    padding: 0.4rem 14rem 0.6rem 14rem;
+    height: auto;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.107);
+
+
+}
+
+.logo{
+    height: 7.9rem;
+}
+.logo__img{
+    height: 7.9rem;
+
+}
+
+h1{
+    font-size: 3.2rem;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    
+}
+button>h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    color: rgb(179, 178, 178);
+    font-weight: normal;
+
+    text-align: left;
+}
+
+.reCAPTCHA{
+
+    font-size: 1.5rem;
+}
+span{
+    font-weight: bold;
+    color: white;
+}
+.help{
+    margin: 4rem 0;
+    color: white;
+    font-size: 1.8rem;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    background-color: #e50914;
+    padding: 1rem 0rem;
+    
+    
+}
+
+form{
+
+    border-radius: 4px;
+    width: 480px;
+    margin: 3rem auto;
+    
+    
+}
+
+fieldset {
+    margin: 0;
+    border: rgba(255, 255, 255, 0.836);
+
+}
+
+
+
+
+input {
+    width: 100%;
+    border: 2px solid #eb3942;
+    border-radius: 4px;
+    margin: 2rem 0 ;
+    padding: 1.8rem 1rem;
+    background-color: rgba(23, 22, 22, 0.505);
+    width: 100%;
+}
+
+input,
+label,
+select,
+option,
+legend{
+    display: block;
+
+}
+
+legend{
+    text-align: left;
+    border: none;
+    
+
+    
+}
+
+fieldset{
+
+    
+    border: none;
+}
+
+
+input::placeholder {
+    font-size: 1.7rem;
+    color: rgb(179, 178, 178);
+
+}
+dialog {
+   
+
+    width: 100%;
+    height: 100%;
+}
+
+dialog::backdrop {
+
+    background-color: rgba(0, 0, 0, 0.17);
+
+
+
+}
+
+@media (max-width:1200px){
+
+    header{
+
+        padding: 0.4rem 3rem 0.6rem 3rem;
+    }
+
+
+
+}
+
+
+
+@media ( max-width: 960px) {
+
+    
+    
+
+
+    .logo__img{
+        scale: 0.8;
+    }
+
+
+
+}
