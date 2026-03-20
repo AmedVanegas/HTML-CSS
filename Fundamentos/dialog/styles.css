@@ -12,11 +12,11 @@ html {
 body {
 
     background: black;
-    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 14%, rgba(65, 1, 4, 0.908) 98%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 14%, rgba(65, 1, 4, 0.908) 98%);
     background-attachment: fixed;
 }
 
-header{
+header {
     padding: 0.4rem 14rem 0.6rem 14rem;
     height: auto;
     background-color: transparent;
@@ -25,66 +25,69 @@ header{
 
 }
 
-.logo{
+.logo {
     height: 7.9rem;
 }
-.logo__img{
+
+.logo__img {
     height: 7.9rem;
 
 }
 
-h1{
+h1 {
     font-size: 3.2rem;
     color: rgb(255, 255, 255);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: left;
-    
+
 }
-button>h1{
+
+button>h1 {
     text-align: center;
     font-size: 2rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     color: rgb(179, 178, 178);
     font-weight: normal;
-
     text-align: left;
 }
 
-.reCAPTCHA{
+.reCAPTCHA {
 
     font-size: 1.5rem;
 }
-span{
+
+span {
     font-weight: bold;
     color: white;
 }
-.help{
+
+.help {
     margin: 4rem 0;
     color: white;
     font-size: 1.8rem;
 }
 
-button{
+button {
     border: none;
     border-radius: 5px;
     display: block;
     width: 100%;
     background-color: #e50914;
     padding: 1rem 0rem;
-    
-    
+
+
 }
 
-form{
+form {
 
     border-radius: 4px;
     width: 480px;
     margin: 3rem auto;
-    
-    
+
+
 }
 
 fieldset {
@@ -98,9 +101,9 @@ fieldset {
 
 input {
     width: 100%;
-    border: 2px solid #eb3942;
+    border: 2px solid rgb(97, 97, 97);  
     border-radius: 4px;
-    margin: 2rem 0 ;
+    margin: 2rem 0;
     padding: 1.8rem 1rem;
     background-color: rgba(23, 22, 22, 0.505);
     width: 100%;
@@ -110,22 +113,21 @@ input,
 label,
 select,
 option,
-legend{
+legend {
     display: block;
 
 }
 
-legend{
+legend {
     text-align: left;
     border: none;
-    
 
-    
+
+
 }
 
-fieldset{
+fieldset {
 
-    
     border: none;
 }
 
@@ -135,24 +137,35 @@ input::placeholder {
     color: rgb(179, 178, 178);
 
 }
+
 dialog {
-   
 
-    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
-}
-
-dialog::backdrop {
-
-    background-color: rgba(0, 0, 0, 0.17);
-
-
+    width: 100%;
+    background: black;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 14%, rgba(65, 1, 4, 1) 98%);
+    background-attachment: fixed;
 
 }
 
-@media (max-width:1200px){
+dialog:modal {
+  max-width: 100vw;
+}
 
-    header{
+.star__button{
+
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    margin-top: 20rem;
+}
+
+@media (max-width:1200px) {
+
+    header {
 
         padding: 0.4rem 0rem 0.6rem 0rem;
     }
@@ -163,13 +176,13 @@ dialog::backdrop {
 
 
 
-@media ( max-width: 960px) {
-
-    
-    
+@media (max-width: 960px) {
 
 
-    .logo__img{
+
+
+
+    .logo__img {
         scale: 0.8;
     }
 
@@ -177,20 +190,23 @@ dialog::backdrop {
 
 }
 
-@media ( max-width: 480px) {
+@media (max-width: 480px) {
 
-    form{
+    form {
 
         width: 100%;
         padding: 1.5rem;
     }
 
-    
-    
+    header {
+        padding: 0;
+    }
 
 
-    
-    
+
+
+
+
 
 
 }
