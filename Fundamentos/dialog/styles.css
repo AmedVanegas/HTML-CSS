@@ -77,9 +77,12 @@ button {
     width: 100%;
     background-color: #e50914;
     padding: 1rem 0rem;
+    cursor: pointer;
 
 
 }
+
+
 
 form {
 
@@ -107,6 +110,7 @@ input {
     padding: 1.8rem 1rem;
     background-color: rgba(23, 22, 22, 0.505);
     width: 100%;
+    color: white;
 }
 
 input,
